@@ -104,6 +104,8 @@ func main() {
 	)
 	flags.BoolVar(
 		&processor.Cocomo,
+		
+		//"no-cocomo" instead of "cocomo"
 		"no-cocomo",
 		false,
 		"remove COCOMO calculation output",
